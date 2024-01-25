@@ -40,7 +40,7 @@ const Header = () => {
         </div>
         <div className='flex space-x-2 w-1/3 lg:w-1/4 items-center justify-center'>
         <AccountCircleIcon fontSize={window.innerWidth > 500 ? "large" : "medium"}/>
-        <h1 className='font-semibold lg:text-xl'>Aditya N</h1>
+        <h1 className='font-semibold lg:text-xl'>Aditya</h1>
         </div>
        </div>
     </div>

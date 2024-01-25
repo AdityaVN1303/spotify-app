@@ -18,7 +18,7 @@ const Footer = () => {
     <div className="footer z-40 fixed bottom-0 h-20 bg-[#282828] w-full space-x-2 px-5 flex justify-between">
       <div className="left flex space-x-3 items-center">
         <img src="https://upload.wikimedia.org/wikipedia/en/a/af/Alan_Walker_-_On_My_Way.png" className='h-16 w-16 m-2 rounded-md' alt="playImg" />
-        <div className='data'>
+        <div className='data hidden lg:block'>
           <h1 className='font-semibold'>On My Way</h1>
           <p className='text-sm'>Alan Walker</p>
         </div>
