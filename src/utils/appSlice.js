@@ -10,7 +10,9 @@ const appslice = createSlice({
        tracks : [],
        token : null,
        artists : [],
-       current : ""
+       current : {},
+       currentArtist : {},
+       info : false
     } ,
     reducers : {
         addUser : (state , action)=>{
@@ -31,9 +33,15 @@ const appslice = createSlice({
         setCurrent : (state , action)=>{
             state.current = action.payload;
         },
+        setCurrentArtist : (state , action)=>{
+            state.currentArtist = action.payload;
+        },
+        setInfo : (state , action)=>{
+            state.info = action.payload;
+        },
         }
     
 })
 
 export default appslice.reducer
-export const {addUser , addToken , addTracks , addPlaylist , addArtists , setCurrent} = appslice.actions
+export const {addUser , addToken , setCurrentArtist , addTracks , addPlaylist , addArtists , setCurrent , setInfo} = appslice.actions

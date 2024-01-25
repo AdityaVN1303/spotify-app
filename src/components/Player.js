@@ -4,7 +4,7 @@ import SideBar from './SideBar'
 import Footer from './Footer'
 
 const Player = () => {
-  const [active, setActive] = useState(true);
+  const [active, setActive] = useState(window.innerWidth < 800 ? false : true);
 
   const handleClick = ()=>{
     setActive(!active);

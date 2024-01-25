@@ -43,20 +43,6 @@ const Header = () => {
         <h1 className='font-semibold lg:text-xl'>Aditya N</h1>
         </div>
        </div>
-       {
-        // tracks &&
-      //   <div className="down bg-white rounded-md p-5 mr-5 absolute top-20 text-black ">
-      //     {
-      //       tracks.map((track)=>{
-      //         return (
-      //           <h1>{track?.name}</h1>
-      //         )
-      //       })
-      //     }
-
-      //  </div>
-       }
-        
     </div>
   )
 }
