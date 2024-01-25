@@ -9,7 +9,11 @@ const scopes = [
     "user-read-recently-played",
     "user-read-playback-state",
     "user-top-read",
-    "user-modify-playback-state"
+    "user-modify-playback-state",
+    "streaming",
+    "user-read-email",
+    "user-read-private"
 ]
+
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`;

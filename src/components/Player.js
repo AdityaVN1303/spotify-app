@@ -11,11 +11,11 @@ const Player = () => {
   }
 
   return (
-    <div className="player flex text-white">
+    <div className="player flex text-white overflow-hidden">
         {active && <SideBar/>}
         <MainContainer/>
-        <button onClick={handleClick} className="absolute bottom-4 lg:hidden left-4 text-3xl">🟢</button>
-        {/* <Footer/> */}
+        <button onClick={handleClick} className="absolute bottom-24 z-50 lg:hidden left-4 text-3xl">🟢</button>
+        <Footer/>
     </div>
   )
 }

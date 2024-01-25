@@ -12,8 +12,8 @@ const SideBar = () => {
     const playArr = playlists?.items;
 
   return (
-    <div className='w-1/2 absolute lg:static lg:w-1/5 py-3 bg-black h-screen px-2'>
-        <img className='w-full my-2' src={logo} alt="logo" />
+    <div className='w-1/2 z-30 absolute lg:static lg:w-1/5 py-3 pb-20 overflow-y-scroll scrollbar-hide  bg-black h-screen px-2'>
+        <img className='w-3/4  lg:w-full my-2' src={logo} alt="logo" />
         <div className="options my-8">
             <SideBarOption Icon={HomeIcon} options={"Home"}/> 
             <SideBarOption Icon={SearchIcon} options={"Search"}/>   
